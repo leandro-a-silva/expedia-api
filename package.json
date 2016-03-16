@@ -1,0 +1,19 @@
+{
+  "name": "expedia-api",
+  "version": "1.0.02",
+  "description": "",
+  "main": "index.js",
+  "keywords": [
+    "api",
+    "expedia",
+    "ean",
+    "booking",
+    "hotel"
+  ],
+  "author": "Leandro Araújo da Silva <leandro.nossoceara@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "crypto": "0.0.3",
+    "request": "^2.69.0"
+  }
+}
