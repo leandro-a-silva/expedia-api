@@ -12,7 +12,7 @@
     apiKey: // YOUR APIKEY,
     sharedSecret: // YOUR SHARED_SECRET
   }
-  
+
   Expedia = require("expedia-api")(options);
 ```
 
@@ -24,13 +24,15 @@ List hotels available in Seattle City, USA.
       city: "Seattle",
       stateProvinceCode: "WA",
       countryCode: "US",
-      arrivalDate: "04/01/2016",
-      departureDate: "09/05/2015",
+      arrivalDate: "05/05/2016",
+      departureDate: "05/08/2016",
       room1: "2"
     }
   , function (response) {
-    
     // JSON Response.
     console.log(response);
   });
 ```
+
+### Test in your broswer
+[https://tonicdev.com/npm/expedia-api](https://tonicdev.com/npm/expedia-api)

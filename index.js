@@ -113,8 +113,8 @@ module.exports = function(options) {
     return;
   }
 
-  this.hoteis = function (parameters, next) {
-    _request("hoteis", parameters, function (response) {
+  this.hotels = function (parameters, next) {
+    _request("list", parameters, function (response) {
       next(response);
     });
   }
