@@ -3,6 +3,10 @@
   "version": "1.0.05",
   "description": "",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leandro-a-silva/expedia-api.git"
+  },
   "keywords": [
     "api",
     "expedia",
@@ -11,6 +15,10 @@
     "hotel"
   ],
   "author": "Leandro Araújo da Silva <leandro.nossoceara@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/leandro-a-silva/expedia-api/issues"
+  },
+  "homepage": "https://github.com/leandro-a-silva/expedia-api#readme",
   "license": "MIT",
   "dependencies": {
     "crypto": "0.0.3",
